@@ -2,9 +2,9 @@
 VPN script to install several VPN docker container
 
 VPN_on_docker_v1.1.sh:
-The purpose of this script is to automate the installation interactively for several VPN servers as docker containers including automated configuration and easy deployment.
+The purpose of this script is to automate the installation interactively for several VPN servers as docker containers including automated configuration and easy deployment. Developed for Ubuntu Server 18.04.3.
 
-This script installs the docker ppa as well as the latest docker version available.
+This script installs the docker ppa as well as the latest docker version available. Use cases are e.g. setting up desired VPN server on a freshly installed AWS instance.
 
 Currently one can pull and set up the following docker container from dockerhub by using the script menu:
 1. IPSec VPN server https://hub.docker.com/r/hwdsl2/ipsec-vpn-server/
